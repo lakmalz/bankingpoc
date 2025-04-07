@@ -52,3 +52,23 @@ export default tseslint.config({
   },
 })
 ```
+
+
+## Create the project
+
+  - Intall the Node.js
+  - Create the project
+    ```js
+      npm create vite@latest
+      cd bankingpoc
+      npm install
+      npm run dev
+    ```
+  - Install the yarn package manager
+    ```js
+      sudo npm install --global yarn
+    ```
+  - Add MUI style library
+    ```js
+      yarn add @mui/material @emotion/react @emotion/styled 
+    ```
