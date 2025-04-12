@@ -1,10 +1,10 @@
-import { Container } from "@mui/material";
+import { Container, Typography } from "@mui/material";
 
 const LoginScreen = () =>{
 
     return(
         <Container>
-            Login Screen
+            <Typography variant="h4" >Login Screen</Typography>
         </Container>
     );
 }

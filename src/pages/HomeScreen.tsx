@@ -1,4 +1,4 @@
-import { Container } from "@mui/material";
+import { Button, Container, Stack, Typography } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 
 
@@ -7,7 +7,13 @@ const HomeScreen = () => {
     
     return (
         <Container>
-            Home
+            <Typography>
+                Welcome to the home screen
+            </Typography>
+            <Stack spacing={2} direction="column">
+                <Button variant="contained" onClick={() => navigate("/login")}>Login</Button>
+                <Button variant="contained" onClick={()=> navigate("/registration")}>Registration</Button>
+            </Stack>
         </Container> 
     );
 }
